@@ -9,7 +9,7 @@ void func_1(char* c) {
 	//strcpy를 사용하면 마지막 \0까지 모두 복사된다.
 	strcpy_s(c, 6, "Hello");
 
-	cout << c << endl; // Hello
+	cout << c << endl; // Hello 
 
 	// \0을 !로 바꾸면 문자열이 이어서 출력된다.
 	*(c + 5) = '!';
